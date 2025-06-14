@@ -1,0 +1,21 @@
+.Main-Header-Container {
+  display: flex;
+  justify-content: space-between;  /* center nav links */
+  background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
+  width: 100%;
+  padding: 15px 0;
+}
+
+.Nav-link a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.Nav-link a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
